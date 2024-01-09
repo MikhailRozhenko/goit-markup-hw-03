@@ -51,6 +51,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+
+  margin-right: 76px;
 }
 
 .studio-span {
@@ -72,6 +74,16 @@ img {
   letter-spacing: 0.32px;
 }
 
+.ul-header {
+  display: flex;
+  margin-right: 332px;
+}
+
+.ul-header .item:not(:last-child),
+.ul-adress .item:not(:last-child) {
+  margin-right: 40px;
+}
+
 .ul-header .ul-header-link:hover,
 .ul-header .ul-header-link:focus {
   color: #404bbf;
@@ -90,12 +102,27 @@ img {
   letter-spacing: 0.32px;
 }
 
+.ul-adress {
+  display: flex;
+}
+
 .ul-adress .ul-adress-link:hover,
 .ul-adress .ul-adress-link:focus {
   color: #404bbf;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.flexnav {
+  display: flex;
+}
+
+.flexheader {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /* section button */
