@@ -196,6 +196,14 @@ img {
   letter-spacing: 0.32px;
 }
 
+.ul-advantages {
+  display: flex;
+}
+
+.advantagesflex {
+  gap: 8px;
+}
+
 /* section dream team  */
 
 .section-dream-team {
