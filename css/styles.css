@@ -159,6 +159,8 @@ img {
   letter-spacing: 0.64px;
   background-color: #4d5ae5;
   cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 4px;
 }
 
 .button-title:hover,
