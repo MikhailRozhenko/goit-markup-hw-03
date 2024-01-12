@@ -125,6 +125,11 @@ img {
   justify-content: space-between;
 }
 
+.bord-hed {
+  border-bottom: 1px solid #e7e9fc;
+  background: #fff;
+}
+
 /* section button */
 .section-button {
   background-color: #2e2f42;
@@ -204,7 +209,7 @@ img {
   gap: 8px;
 }
 
-/* section dream team  */
+/* section dream team   */
 
 .section-dream-team {
   text-align: center;
@@ -219,6 +224,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .ul-dream-team .title-dream-team {
@@ -241,6 +247,19 @@ img {
   background-color: #fff;
 }
 
+.ul-dream-team {
+  display: flex;
+}
+
+.list-item-dream-team:not(:last-child) {
+  margin-right: 24px;
+}
+.container-dreamteam,
+.container-portfolio {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 /* section Our Portfolio */
 
 .title-section-portfolio {
@@ -249,6 +268,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .ul-portfolio .title-portfolio {
@@ -257,6 +277,8 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+
+  margin-bottom: 8px;
 }
 
 .ul-portfolio .ul-text-portfolio {
@@ -264,6 +286,18 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+
+.ul-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-portfolio-item:not(:nth-child(3)):not(:nth-child(6)) {
+  margin-right: 24px;
+  margin-bottom: 48px;
+}
+
+.container-portfolio
 
 /* footer */
 .footer-page {
@@ -296,4 +330,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+
+  margin-bottom: 17px;
+  display: inline-block;
+}
+
+.foot-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
