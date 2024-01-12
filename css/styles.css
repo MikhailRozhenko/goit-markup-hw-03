@@ -198,6 +198,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .ul-advantages .text-advantages {
@@ -208,10 +209,11 @@ img {
 
 .ul-advantages {
   display: flex;
+  gap: 24px;
 }
 
-.advantagesflex {
-  gap: 8px;
+.item-advantages {
+  width: calc((100% - 72px) / 4);
 }
 
 /* section dream team   */
