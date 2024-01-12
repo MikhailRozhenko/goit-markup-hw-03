@@ -148,6 +148,9 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+
+  max-width: 496px;
+  margin: 0 auto;
   margin-bottom: 40px;
 }
 
@@ -162,7 +165,11 @@ img {
   cursor: pointer;
   padding: 16px 32px;
   border-radius: 4px;
-
+  display: block;
+  min-width: 169px;
+  margin: 0 auto;
+  height: 56px;
+  border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -260,6 +267,10 @@ img {
   background-color: #fff;
 }
 
+.title-dream-team {
+  margin-bottom: 8px;
+}
+
 .ul-dream-team {
   display: flex;
 }
@@ -271,6 +282,10 @@ img {
 .container-portfolio {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.list-item-dream-team {
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* section Our Portfolio */
@@ -353,4 +368,5 @@ img {
   color: #4d5ae5;
 
   margin-bottom: 16px;
+  display: inline-block;
 }
