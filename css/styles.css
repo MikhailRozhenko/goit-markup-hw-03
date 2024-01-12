@@ -115,6 +115,7 @@ img {
 
 .flexnav {
   display: flex;
+  align-items: center;
 }
 
 .flexheader {
@@ -176,6 +177,11 @@ img {
 
 .gheader-adres {
   font-style: normal;
+}
+
+.ul-header .item {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /* section advantages*/
