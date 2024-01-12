@@ -297,7 +297,10 @@ img {
   margin-bottom: 48px;
 }
 
-.container-portfolio
+.container-portfolio {
+  border: 1px solid #e7e9fc;
+  background: #fff;
+}
 
 /* footer */
 .footer-page {
