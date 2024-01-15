@@ -271,11 +271,9 @@ img {
 
 .ul-dream-team {
   display: flex;
+  gap: 32px;
 }
 
-.list-item-dream-team:not(:last-child) {
-  margin-right: 24px;
-}
 .container-dreamteam,
 .container-portfolio {
   padding-top: 32px;
