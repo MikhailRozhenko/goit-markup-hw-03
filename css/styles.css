@@ -282,6 +282,7 @@ img {
 
 .list-item-dream-team {
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 /* section Our Portfolio */
@@ -330,6 +331,10 @@ img {
   padding: 32px 16px;
 }
 
+.container-portfolio-item {
+  flex-basis: calc((100% - 48px) / 3);
+}
+
 /* footer */
 .footer-page {
   background-color: #2e2f42;
@@ -353,6 +358,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  max-width: 264px;
 }
 
 .footer-link {
