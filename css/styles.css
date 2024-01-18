@@ -64,7 +64,7 @@ img {
   font-style: normal;
   font-weight: 700;
   line-height: 1.1;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -73,7 +73,7 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -95,14 +95,14 @@ img {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .ul-adress-link {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .ul-adress {
@@ -114,7 +114,7 @@ img {
   color: #404bbf;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .flexnav {
@@ -150,7 +150,7 @@ img {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
 
   max-width: 496px;
   margin: 0 auto;
@@ -163,7 +163,7 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
   cursor: pointer;
   padding: 16px 32px;
@@ -196,7 +196,7 @@ img {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
 .visually-hidden {
@@ -215,7 +215,7 @@ img {
 .ul-advantages .text-advantages {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .ul-advantages {
@@ -240,7 +240,7 @@ img {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
 }
@@ -251,14 +251,14 @@ img {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 .ul-dream-team .text-dream-team {
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .ul-dream-team .list-item-dream-team {
@@ -301,7 +301,7 @@ img {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 
   margin-bottom: 8px;
 }
@@ -309,7 +309,7 @@ img {
 .ul-portfolio .ul-text-portfolio {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .ul-portfolio {
@@ -346,7 +346,7 @@ img {
   font-style: normal;
   font-weight: 700;
   line-height: 1.1;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -354,7 +354,7 @@ img {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   max-width: 264px;
 }
 
